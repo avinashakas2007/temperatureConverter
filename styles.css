@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    color:#FFFBC1;
+}
+body{
+    background-color:#F7A4A4;
+}
+body h1{
+text-align: center;   
+margin-top: 22px; 
+font-family: 'Poppins', sans-serif;
+}
+.temp{
+    display: flex;
+    height: 70vh;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* .cel,.fah,.kel{
+    margin: 18px;
+    padding: 12px;
+    height: 50%;
+    width: 111%;
+    text-align: center;
+    font-size: 25px;
+} */
+
+.celcius,.faherneit,.kelvin{
+    height: 13%;
+     width: 34%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cel,.fah,.kel{
+    height: 59px;
+    width: 295px;
+    text-align: center;
+    background-color:#FEBE8C;
+    border-radius: 12px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+.symbol{
+    padding-left: 11px;
+    font-size: 29px;
+    font-weight: bold;
+}
+.fire{
+    width: 13.5rem;
+    display: inline;
+    position: absolute;
+    left: 12%;
+    top: 25%;
+    transition: 4s ease-in;
+} 
+footer{
+    margin-top: 10px;
+    padding-top: 50px;
+    text-align: center;
+
+}
+@media (max-width:531px){
+body h1{
+    padding: 20px;
+}
+}
+ @media(max-width:954px){
+    .fire{
+    width: 10.5rem;
+    position: absolute;
+    top: 146px;
+    text-align: center;
+    left: auto;
+}
+.temp{
+    padding-top: 79px;
+}
+footer{
+    padding-top: 0px;
+}
+}
